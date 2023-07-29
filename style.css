@@ -1,0 +1,48 @@
+#titulo{
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgba(55, 150, 0, 0.582);
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+}
+
+h5 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+#clave-no-color{
+    background-color: rgb(255, 255, 255);
+    color: rgba(55, 150, 0, 0.582);
+}
+
+#clave-color{
+    background-color: rgba(55, 150, 0, 0.582);
+    color: rgb(255, 255, 255);
+}
+
+#col-color{
+    background-color: rgba(55, 150, 0, 0.582);
+}
+
+#txt_carrusel{
+    text-shadow: 2px 2px 4px #000;
+}
+
+#title_sec{
+    color: black;
+    text-shadow: 2px 2px 4px #00000050;
+}
+#title_sec2{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #00000050;
+}
+
+footer{
+    background-color: rgba(55, 150, 0, 0.582);
+    color: rgb(255, 255, 255);
+}

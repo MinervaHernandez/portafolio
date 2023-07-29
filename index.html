@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=advice-width, initial-scale=1.0">
+    <title>Minerva Hernández</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="container"><!--Todo lo de bootstrap va en un container-->
+    <header>
+        <nav class="navbar navbar-expand-lg shadow p-3 mb-5 rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MAHC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactos</a>
+                        </li>
+                    </ul>
+                <span id="titulo" class="navbar-text">Minerva Hernández</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Perfil (foto, descripción)-->
+    <section class="container my-3">
+        <article class="row p-4 pb-0 pt-lg-5 justify-content-center align-items-center rounded-3 border shadow-lg bg-body-tertiary">
+            <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center px-3 px-lg-5 pt-lg-3">
+                <img id="img-perfil" width="200px" src="images\foto-cortada.jpg" class="img-thumbnail rounded-circle" alt="Foto de perfil">
+                <h1  id="typewriter" class="display-5 fw-bold text-body-emphasis mb-3">Minerva Hernández</h1>
+                <p class="lead">| Egresada de Ingeniería en Sistemas y Comunicaciones | Artista de vocación |</p>
+            </div>
+        </article>  
+    </section>
+    <!--Secciones de mi página/links a otras páginas-->
+    <section class="container my-3 text-center">
+        <div class="row rounded-3 border shadow-lg bg-body-tertiary">
+            <div id="col-color" class="col-4 p-5">
+                <h4 id="title_sec2">Sistemas</h4>
+                <p>
+                    Durante mi formación académica aprendí el uso básico de 
+                    diversos lenguajes de programación de alto y bajo nivel,
+                    así como lenguajes para administración de bases de datos.
+                </p>
+                <p>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">SQL</span>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">Java</span>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">C++</span>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">Ensamblador</span>
+                </p>
+            </div>
+            <div id="col" class="col-4 p-5">
+                <h4 id="title_sec">Arquitectura de computadoras</h4>
+                <p>
+                    Obtuve experiencia durante las clases y mi servicio social acerca 
+                    tanto de mantenimiento básico como administración de centros de 
+                    cómputo.
+                </p>
+                <p>
+                    <span id="clave-color" class="badge rounded-pill text-bg-primary">Mantenimiento</span>
+                    <span id="clave-color" class="badge rounded-pill text-bg-primary">Centros de cómputo</span>
+                </p>
+            </div>
+            <div id="col-color" class="col-4 p-5">
+                <h4 id="title_sec2">Circuitos y redes</h4>
+                <p>
+                    Generé aprendizaje sobre su instalación y funcionamiento básico 
+                    por medio de simulaciones realizadas a través de las herramientas 
+                    Packet Tracer y Tinkercad Circuits.
+                </p>
+                <p>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">Simulación</span>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">Packet Tracer</span>
+                    <span id="clave-no-color" class="badge rounded-pill text-bg-primary">Tinkercad Circuits</span>
+                </p>
+            </div>
+        </div>   
+    </section>
+    <!--Proyectos-->
+    <section class="container fluid  rounded-3 border shadow-lg bg-body-tertiary">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <h2>Proyectos</h2>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images\james-harrison.jpg" class="d-block w-100" alt="img1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Programación</h5>
+                            <p id="txt_carrusel">
+                                Sistema de información para la administración del taller de arquitectura de computadoras.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\emile-victor-recortada.jpg" class="d-block w-100" alt="img3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Desarrollo de proyectos</h5>
+                            <p id="txt_carrusel">
+                                Desarrollo de una empresa de construcción e implementación de jardines hidropónicos a medida.
+                            </p>                        
+                        </div>
+                    </div>                    
+                    <div class="carousel-item">
+                        <img src="images\hack-capital-2.jpg" class="d-block w-100" alt="img2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Diseño de centro de cómputo</h5>
+                            <p id="txt_carrusel">
+                                En base a la información de una empresa real.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 1200px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images\escudouaem.jpg" width="250px" class="img-fluid rounded-start" alt="escudo-uaem">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Sistema de información</h4>
+                        <p class="card-text">
+                            El sistema se encuentra actualmente en etapa de prototipo, desarrollado por medio de 
+                            la plataforma NetBeans y el lenguaje Java; su propósito principal es facilitar los 
+                            procesos que se encuentren involucrados dentro del taller de arquitectura de computadoras 
+                            en el Centro Universitario UAEM Valle de México.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 1200px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images\hidrohome.png" width="250px" class="img-fluid rounded-start" alt="logo-hidrohome">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Desarrollo de proyectos</h4>
+                        <p class="card-text">
+                            Hidrohome es una empresa dedicada al diseño, implementación y mantenimiento 
+                            de jardines hidropónicos a medida, cuyo público objetivo es toda aquella persona 
+                            que tenga el deseo de cultivar en su propio hogar, además de aquellas micro empresas 
+                            dedicadas a la industria de la comida con deseo de adquirir sus ingredientes de 
+                            forma orgánica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 1200px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images\logo-empresa.jpeg" width="250px" class="img-fluid rounded-start" alt="logo-">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Diseño de centros de cómputo</h4>
+                        <p class="card-text">
+                            En colaboración con 3 colegas, se planteó el diseño de un centro de cómputo aplicado 
+                            a una micro empresa dedicada a la seguridad privada de nombre "Protego Integral" que 
+                            cumpliera con los requisitos de espacio,  número de equipos, ergonomía, calidad, etc. 
+                            realizando un estudio de mercado, procesos, riesgos, amenazas, entre otras 
+                            características sobre la empresa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Otros proyectos-->
+    <section class="container fluid  rounded-3 border shadow-lg bg-body-tertiary"> 
+        <div class="card-group">  
+            <div class="card" style="width: 18rem;">
+                <img src="images\malachi-brooks.jpg" class="card-img-top" alt="circuitos">
+                <div class="card-body text-center">
+                    <p class="card-text">
+                        Durante mi servicio social apliqué conocimientos sobre arquitectura de computadoras 
+                        trabajando en la administración del taller porpio del Centro Universitario UAEM Valle 
+                        de México.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images\circuitos.jpeg" class="card-img-top" alt="circuitos">
+                <div class="card-body text-center">
+                    <p class="card-text">
+                        Durante mi formación académica realicé diversos tipos de circuitos eléctricos, 
+                        simulados y llevados a la práctica aplicando así conocimientos de 
+                        programación en C y matemáticas booleanas.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images\rhondak-native-2-c.jpg" class="card-img-top" alt="circuitos">
+                <div class="card-body text-center">
+                    <p class="card-text">
+                        Participé en la exposición de arte en 2017, realizada por los 
+                        miembros del taller de artes en la Escuela Preparatoria Oficial 
+                        del Estado de México 148 con un total de tres piezas originales 
+                        y un mural en colaboración con el grupo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!--Contactos-->
+    <footer class="container my-5 text-center">
+        <div  id="contactoo" class="px-4 py-5 text-center">
+            <div class="col-lg-6 mx-auto">
+            <a href="https://www.linkedin.com/in/minerva-hern%C3%A1ndez-362176267/" target="_blank">
+                <img src="images\linkedin.svg" id="linkedin">
+            </a>
+            <a href="https://github.com/MinervaHernandez" target="_blank">
+                <img src="images\github.svg" id="github">
+            </a>
+            <p>Desarrollado en Tecnolochicas PRO Summer Camp por <b>Minerva Hernández</b>.</p>   
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
